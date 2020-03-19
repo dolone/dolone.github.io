@@ -1,6 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-<script>
-    this.location = "https://www.notion.so/415/Blog-6358e2f4eb3a40a8bafda1fec2bd63c7" ;
-</script>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notepad</title>
+    <link rel="shortcut icon" href="./resource/favicon.ico">
+    <link rel="stylesheet" href="./resource/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <textarea id="content" v-model="text"></textarea>
+    </div>
+    <pre id="printable"></pre>
+    <script src="https://cdn.bootcss.com/vue/2.6.11/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.3.1/dist/av-min.js"></script>
+    <script src="./resource/script.js" type="module"></script>
+</body>
+
 </html>
